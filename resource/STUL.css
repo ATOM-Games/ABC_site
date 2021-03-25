@@ -1,0 +1,100 @@
+body { background-color : #131c33; }
+main { width : 100%; }
+#OTHER { display : table; margin : 0 auto; width : 90%; max-width : 1500px; min-width : 450px; overflow : hidden; }
+.Block { border-radius : 5px; margin-top : 2px; margin-bottom : 2px; padding-top : 5px; padding-bottom : 5px; padding-right : 10px; padding-left : 10px; transition: 1s; }
+.Block:hover { border-radius : 5px; margin-top : 2px; margin-bottom : 2px; padding-top : 5px; padding-bottom : 5px; padding-right : 10px; padding-left : 10px; transition: 1s; }
+.InBox { height : auto; max-height : 100px; overflow : hidden; transition: 1s; }
+.InBox:hover { height : auto; max-height : 1500px; overflow : hidden; transition: 3s; }
+a.Knopka { width : 60%; font-size : 16px; font-family : times new roman; text-decoration : none; color : #00ddff; text-shadow : 0 0 0px #000000; display : block; border : 2px solid #065f92; border-radius : 5px; margin-bottom : 1px; margin-top : 1px; padding-top : 5px; padding-bottom : 5px; transition: 0.5s; }
+a:hover.Knopka { width : 90%; font-size : 16px; font-family : times new roman; text-decoration : none; color : #00ffff; text-shadow : 0 0 15px #00ffff; display : block; border : 2px solid #065f92; border-radius : 5px; margin-bottom : 1px; margin-top : 1px; padding-top : 5px; padding-bottom : 5px; transition: 0.5s; }
+#RightMenu a.Knopka { text-align : right; padding-right : 20px; float : right; }
+#LeftMenu a.Knopka { text-align : left; padding-left : 20px; float : left; }
+#RightMenu a.Knopka:after { content : " ●"; } #RightMenu a:hover.Knopka:after { content : " ◄"; }
+#LeftMenu a.Knopka:before { content : "● "; } #LeftMenu a:hover.Knopka:before { content : "► "; }
+.pod { background-color : #131d44; } .nad { background-color : #131c33; }
+a.zag { width : 90%; font-size : 16px; font-family : times new roman; text-decoration : none; color : #00ddff; text-shadow : 0 0 0px #000000; display : block; border : 2px solid #065f92; border-radius : 5px; margin-bottom : 1px; margin-top : 1px; padding-top : 5px; padding-bottom : 5px; transition: 0.5s; }
+.LikeComment { width : 100%; height : 30px; margin-top : 15px; }
+#RightMenu a.zag { text-align : right; padding-right : 20px; float : right; } #LeftMenu a.zag { text-align : left; padding-left : 20px; float : left; }
+.Block_Red { border-radius : 5px; margin-top : 2px; margin-bottom : 2px; padding-top : 5px; padding-bottom : 25px; padding-right : 10px; padding-left : 10px; transition: 1s; }
+.Block_Red:hover { border-radius : 5px; margin-top : 2px; margin-bottom : 2px; padding-top : 5px; padding-bottom : 25px; padding-right : 10px; padding-left : 10px;  transition: 1s; }
+.FB_Red { border : 2px solid #ff0000; background-color : #ac7780; box-shadow: 0 0 0px #000000; transition: 1s; }
+.FB_Red:hover { border : 2px solid #ff0000; background-color : #e69da9; box-shadow: 0 0 15px #ff0000; transition: 1s; }
+.FB_Blue { border : 2px solid #065f92; background-color : #6da4bb; box-shadow: 0 0 0px #000000; transition: 1s; }
+.FB_Blue:hover { border : 2px solid #043d70; background-color : #9fd9ef; box-shadow: 0 0 15px #043d70; transition: 1s; }
+#BlockFind { max-width : 1500px; min-width : 450px; border : 2px solid #065f92; border-radius : 10px; background-color : #131c33; margin-top : -5px; margin-bottom : 2px;  }
+.findpole { border : 2px solid #065f92; background-color : #6da4bb; box-shadow: 0 0 0px #000000; border-radius : 5px; padding-top : 5px; padding-bottom : 5px; height : 20px; padding-right : 10px; padding-left : 10px; transition: 1s; }
+input[type="text"].fn { border : 2px solid #065f92; background-color : #6da4bb; width : 100px; }
+input[type="submit"].fnp,input[type="button"].fnp { border : 2px solid #065f92; background-color : #6da4bb; width : 23px; height : 23px; font-weight : bold; }
+input[type="mail"].Kr, input[type="button"].Kr, select.Kr, textarea.Kr, input[type="text"].Kr, input[type="number"].Kr,input[type="password"].Kr { width : 100%; background-color : #fff; border : 1px solid #0055ff; border-radius : 10px; color : #003399; font-size : 20px; font-family : CRY; text-align : center; text-shadow : 0 0 5px; }
+a.Kr, input[type="button"].Kr, input[type="file"].Kr, input[type="submit"].Kr, input[type="reset"].Kr { width : 80%; background-color : #ddd; border : 1px solid #0044dd; border-radius : 10px; color : #002288; font-size : 20px; font-family : CRY; text-align : center; text-shadow : 0 0 5px #000000; transition: 0.5s; }
+a.Kr:hover, input[type="button"]:hover.Kr, input[type="file"]:hover.Kr, input[type="submit"]:hover.Kr, input[type="reset"]:hover.Kr { width : 100%; background-color : #fff; border : 1px solid #0055ff; border-radius : 10px; color : #003399; font-size : 20px; font-family : CRY; text-align : center; text-shadow : 0 5px 15px #00ffff; transition: 0.5s; }
+a.Kr { padding-left : 20px; padding-right : 20px; text-decoration : none; }
+input[type="mail"].KrEr, input[type="file"].KrEr, textarea.KrEr, input[type="text"].KrEr,input[type="password"].KrEr { width : 100%; background-color : #ffaaaa; border : 1px solid #ff0000; border-radius : 10px; color : #003399; font-size : 20px; font-family : CRY; text-align : center; text-shadow : 0 0 5px; }
+a.button { width : 80%; background-color : #ddd; border : 1px solid #0044dd; border-radius : 10px; color : #002288; font-size : 20px; font-family : CRY; text-align : center; text-shadow : 0 0 5px #000000; transition: 0.5s;  }
+a:hover.button { width : 100%; background-color : #fff; border : 1px solid #0055ff; border-radius : 10px; color : #003399; font-size : 20px; font-family : CRY; text-align : center; text-shadow : 0 5px 15px #00ffff; transition: 0.5s; }
+h1 { color : #000055; text-align : center; font-size : 24px; font-family : arial; text-decoration : underline; width : 100%; }
+h2 { color : #000055; text-align : left; font-size : 20px; font-family : arial; text-decoration : underline; }
+h2 img { border : 1px solid #555; height : 45px; width : 45px; }
+h3 { color : #000055; text-align : right; font-size : 20px; font-family : arial; text-decoration : underline; }
+.eeeorrr { color : red; font-weight : bold; }
+.tabl { width : 100%; border : 2px solid #065f92; border-radius : 10px; }
+.tabl td { border : 1px solid #065f92; border-radius : 10px; text-align : center; }
+.tabl td.f { width : 30%; }
+.tabl td.s, .tabl td.t { width : 35%; }
+pen { font-family : Wingdings; display : inline; }
+#Ava_mini { width : 100px; height : 100px; border : 2px solid #065f92; border-radius : 10px; }
+#Ava { width : 200px; height : 200px; border : 2px solid #065f92; border-radius : 10px; }
+.nv { display : none; }
+#hand_nav:hover { cursor:hand; }
+.video_kr { width : 100%; border : 2px solid #065f92; border-radius : 10px; }
+op { color : #ff0000; font-weight : bold; }
+.bl_bord { box-shadow: 0 0 15px #065f92; padding : 2px; color : #000; font-weight : bold; }
+.rd_bord { border : 2px solid #065f92; padding : 2px; }
+a.b { color : #000; }
+l_m { font-style : italic; text-align : left; width : 100%; display:block; } r_m { font-style : italic; text-align : right; width : 100%; display:block; }
+iframe { height : 300px; }
+
+
+@media screen and (min-width: 1024px) {
+	section { margin : 0 auto; width : calc(100% - 490px); }
+	footer { margin : 0 auto; width : 90%; height : 20px; position : fixed; left : 5%; bottom : 0; border : 2px solid #043d70; border-radius : 5px; background-color : #102040; padding-top : 10px; padding-bottom : 10px; color : #00ddff; text-align : center; }
+	footer a { color : #00ddff; }
+	footer a:after { content : " ►"; } footer a:hover:after { content : " ◄"; }
+	footer a:before { content : "◄ "; } footer a:hover:before { content : "► "; }
+	.otstup_foot { height : 50px; }
+	.otstup_head { height : 100px; }
+	header { position : fixed; left : 5%; width : 90%; height : 80px; max-width : 1500px; min-width : 450px; margin-top : -8px; z-index : 999999; border : 2px solid #065f92; border-radius : 5px; background-color : #102040; text-align : center; }
+	.gds { height : 100%; }
+	#LeftMenu { width : 220px; display : inline-block; position : fixed; left : calc(5% + 2px); top : 100px; background-color : #242d44; border-right : 2px solid #065f92; }
+	#RightMenu { width : 220px; display : inline-block; position : fixed; right : calc(5% - 2px); top : 100px; background-color : #242d44; border-left : 2px solid #065f92; }
+	#katMen { width : 100%; }
+	#kurMen { width : 100%; }
+	.stat_st { width : 100%; border : 3px groove #043d70; background-color : #fff; }
+	.stat_st tr.zag { text-align : center; font-weight : bold; }
+	.stat_st tr.stlb_d { vertical-align : bottom; }
+	.stat_st tr.stlb_c { vertical-align : center; }
+	.stat_st tr.stlb_c td { border-top : 1px solid #000; }
+	.stat_st tr.stlb_d td { border-bottom : 1px solid #000; border-top : 1px solid #000; }
+	.stat_st tr.stlb_d td .st { margin : 0 auto; border : 1px solid #000; max-width : 100px; }
+	.RghtMenuMob, .LeftMenuMob { position : fixed; top : -100px; display : none; }
+}
+@media screen and (max-width: 1023px) {
+	section { width : 100%; position : relative; left : 0%; }
+	footer { margin : 0 auto; width : calc(100% - 4px); height : 20px; border : 2px solid #186fa5; border-radius : 5px; background-color : #102040; padding-top : 10px; padding-bottom : 10px; color : #00ddff; text-align : center; }
+	footer a { color : #00ddff; }
+	footer a:after { content : " ►"; } footer a:hover:after { content : " ◄"; }
+	footer a:before { content : "◄ "; } footer a:hover:before { content : "► "; }
+	.otstup_foot, .otstup_head { height : 5px; }
+	header { display:none; }
+	#LeftMenu { width : 100%; display : inline-block; position : fixed; left : -100%; top : 100px; background-color : #242d44; border-right : 2px solid #065f92; transition: 0.5s; }
+	#RightMenu { width : 100%; display : inline-block; position : fixed; right : -100%; top : 100px; background-color : #242d44; border-left : 2px solid #065f92; transition: 0.5s; }
+	.stat_st { width : 100%; border : 3px groove #186fa5; background-color : #fff; }
+	.stat_st tr.zag { text-align : center; font-weight : bold; }
+	.stat_st tr.stlb_d { height : 300px; vertical-align : bottom; }
+	.stat_st tr.stlb_d td { border-bottom : 1px solid #000; border-top : 1px solid #000; }
+	.stat_st tr.stlb_d td .st { margin : 0 auto; border : 1px solid #000; max-width : 100px; }
+	.RghtMenuMob, .LeftMenuMob { position : fixed; top : 0px; width : 70px; height : 70px; font-size : 36pt; color : white; background-color : #555; border : 2px solid #fff; border-radius : 10px; text-shadow : 0 5px 15px #fff; font-weight : bold; display : block; opacity : 0.3; z-index : 999999; }
+	.RghtMenuMob { right : 0%; }
+	.LeftMenuMob { left : 0%; }
+}
+
